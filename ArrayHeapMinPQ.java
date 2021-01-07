@@ -149,9 +149,6 @@ public class ArrayHeapMinPQ<T> {
             removeLast();
             add(item, priority);
         }
-//        else if (contains(index * 2) && indexToPriority(index * 2) > priority) {
-//
-//        }
         else {
             swap(index, size());    // swap with last item
             removeLast();
